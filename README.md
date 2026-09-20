@@ -28,3 +28,13 @@
 ---
 
 ## 🏗️ Project Architecture
+```text
+AgroLeafNet-PlantDiseaseDetection/
+│
+├── data/                     # Dataset directory (raw & preprocessed images)
+├── models/                   # Saved model weights (.h5, .pt, or .tflite)
+├── notebooks/                # Jupyter / Colab exploratory notebooks
+├── src/                      # Source code (preprocessing, model, train, predict)
+├── requirements.txt          # Project dependencies
+└── README.md                 # Project documentation
+```
